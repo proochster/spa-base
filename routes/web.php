@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/{any?}', function () { // {any?} works as a wilde card route
+Route::get('/{any}', function () { // {any?} works as a wilde card route
     return view('app');
-});
+})->where('any','.*'); // Check 'any' against the regular expression. '.*' check all the characters.

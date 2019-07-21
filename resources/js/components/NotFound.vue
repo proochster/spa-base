@@ -1,8 +1,5 @@
 <template>
-    <div>
-        <h1 class="title">Home SPA</h1>
-        <h2 class="subtitle">Hero subtitle</h2>
-    </div>
+    <h1 class="title">Page not found.</h1>
 </template>
 
 <script>
