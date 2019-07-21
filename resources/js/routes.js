@@ -1,5 +1,6 @@
 import Home from './components/Home';
 import About from './components/About';
+import Contact from './components/Contact';
 
 export default {
     mode: 'history', // Use HTML 5 history API for history 
@@ -13,6 +14,11 @@ export default {
             path: '/about',
             component: About,
             name: 'about'
+        },
+        {
+            path: '/contact',
+            component: Contact,
+            name: 'contact'
         }
     ]
 }
