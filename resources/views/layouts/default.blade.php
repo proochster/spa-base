@@ -33,9 +33,6 @@
             <div class="hero-body">
                 <div class="container">
                     <router-view></router-view>
-                    <h2 class="subtitle">
-                        Hero subtitle
-                    </h2>
                 </div>
             </div>
         </section>
