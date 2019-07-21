@@ -1,5 +1,5 @@
 <template>
-    <h1>Home SPA</h1>
+    <h1 class="title">Home SPA</h1>
 </template>
 
 <script>

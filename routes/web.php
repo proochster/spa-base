@@ -12,5 +12,5 @@
 */
 
 Route::get('/{any?}', function () { // {any?} works as a wilde card route
-    return view('home');
+    return view('app');
 });
